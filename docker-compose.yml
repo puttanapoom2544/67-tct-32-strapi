@@ -9,13 +9,7 @@ services:
       - 1337:1337
     env_file:
       - .env
-   # environment:
-   #   - DATABASE_CLIENT=postgres
-   #   - DATABASE_PORT=5432
-   #   - DATABASE_NAME=bananadb
-   #   - DATABASE_USERNAME=burachat
-   #   - DATABASE_PASSWORD=banana
-   #   - DATABASE_SSL=false
+
   db:
     image: postgres:15.5-bullseye
     container_name: my-db
@@ -23,8 +17,5 @@ services:
       - 5432:5432
     env_file:
       - .env
-   # environment:
-   #   - POSTGRES_USER=burachat
-   #   - POSTGRES_PASSWORD=banana
-   #   - POSTGRES_DB=bananadb
+      
     
