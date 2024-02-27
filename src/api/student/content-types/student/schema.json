@@ -20,6 +20,18 @@
       "relation": "oneToMany",
       "target": "api::class.class",
       "mappedBy": "student"
+    },
+    "class": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::class.class",
+      "mappedBy": "student"
+    },
+    "Subject": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::class.class",
+      "mappedBy": "Student"
     }
   }
 }
