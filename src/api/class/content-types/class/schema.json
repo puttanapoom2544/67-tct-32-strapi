@@ -16,26 +16,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::student.student",
-      "inversedBy": "class"
-    },
-    "subject": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::subject.subject",
-      "inversedBy": "class"
-    },
-    "Student": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::student.student",
-      "inversedBy": "Subject"
-    },
-    
-      "mobile": {
-        "type" : "number",
-        "require" : true,
-        "minLenght" : 10,
-        "maxLenght" : 10
+      "inversedBy": "classes"
     }
   }
 }

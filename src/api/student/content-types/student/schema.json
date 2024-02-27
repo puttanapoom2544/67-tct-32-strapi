@@ -21,17 +21,17 @@
       "target": "api::class.class",
       "mappedBy": "student"
     },
-    "class": {
+    "mobile": {
+      "type": "string",
+      "required": true,
+      "minLenght": 10,
+      "maxLenght": 10
+    },
+    "classes": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::class.class",
       "mappedBy": "student"
-    },
-    "Subject": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::class.class",
-      "mappedBy": "Student"
     }
   }
 }

@@ -15,12 +15,6 @@
       "type": "string",
       "required": true,
       "unique": true
-    },
-    "class": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::class.class",
-      "mappedBy": "subject"
     }
   }
 }
